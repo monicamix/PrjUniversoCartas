@@ -1,0 +1,71 @@
+body
+{
+    font-family:cursive;
+    background-color: #cbeee8;
+}
+
+h1
+{
+    text-align: center;
+    color: #282e23;
+    font-family:cursive;
+}
+
+table 
+{
+    color:#0e0d0d;
+    background-color:#40a594;
+    text-align:center;
+    text-shadow: 2px 2px 3px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: auto; 
+} 
+
+td,th
+{
+    border: 1px solid rgb(28, 28, 29);
+    font-size: 15pt;
+}
+
+/* Altera cor de todos os TDs  */
+td
+{
+    color:black;
+}
+
+/* Altera cor do parágrafo */
+p
+{
+    color:black;
+    font-size: 15pt;
+    font-family:cursive;
+}
+
+ul,ol
+{
+    font-size: 15pt;
+    color:black;
+}
+
+<nav class="menu">
+        <ul>
+            <li><a href="#"> Introdução</a></li>
+            <li><a href="#">Vídeos</a></li>
+            <li><a href="#">História do canal</a></li>
+            <li><a href="#">Dias de postagem</a></li>
+            <li><a href="#">Jogos Gravados</a></li>
+            <li><a href="#">Links</a></li>
+        </ul>
+     </nav>
+ 
+/* Estilo da classe do banner original (quando fixa no topo) */
+.banneroriginal {
+  position: fixed;
+  top: 0; /* Coloca a imagem no topo da página */
+  width: 100%; /* Ajusta a largura do banner */
+  height: auto;
+  z-index: -1; /* Coloca o banner atrás do conteúdo */
+  background-size: cover;
+  background-position: center;
+ 
